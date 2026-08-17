@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'widgets/cartao_estudante.dart';
+import 'desafio_lista.dart';
 
 void main() {
   runApp(const MeuCrachaApp());
@@ -19,28 +19,7 @@ class MeuCrachaApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const TelaCracha(),
-    );
-  }
-}
-
-class TelaCracha extends StatelessWidget {
-  const TelaCracha({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'PPDM - Identificação Estudantil',
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.green,
-        foregroundColor: Colors.white,
-      ),
-      body: const Center(
-        child: CartaoEstudante(),
-      ),
+      home: const DesafioLista(),
     );
   }
 }
