@@ -14,7 +14,7 @@ class MeuCrachaApp extends StatelessWidget {
       title: 'Identificação Estudantil',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.indigo,
+          seedColor: Colors.green,
         ),
         useMaterial3: true,
       ),
@@ -34,7 +34,7 @@ class TelaCracha extends StatelessWidget {
           'PPDM - Identificação Estudantil',
         ),
         centerTitle: true,
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
 
@@ -44,10 +44,10 @@ class TelaCracha extends StatelessWidget {
           padding: const EdgeInsets.all(20),
 
           decoration: BoxDecoration(
-            color: Colors.indigo.shade50,
+            color: Colors.green.shade50,
             borderRadius: BorderRadius.circular(16),
             border: Border.all(
-              color: Colors.indigo,
+              color: Colors.green,
               width: 2,
             ),
             boxShadow: const [
@@ -65,7 +65,7 @@ class TelaCracha extends StatelessWidget {
 
               const CircleAvatar(
                 radius: 40,
-                backgroundColor: Colors.indigo,
+                backgroundColor: Colors.green,
                 child: Icon(
                   Icons.person,
                   size: 50,
@@ -80,7 +80,7 @@ class TelaCracha extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
-                  color: Colors.indigo,
+                  color: Colors.green,
                 ),
               ),
 
@@ -102,7 +102,7 @@ class TelaCracha extends StatelessWidget {
                 children: const [
                   Icon(
                     Icons.badge,
-                    color: Colors.indigo,
+                    color: Colors.green,
                   ),
                   SizedBox(width: 10),
                   Text(
@@ -120,7 +120,7 @@ class TelaCracha extends StatelessWidget {
                 children: const [
                   Icon(
                     Icons.email,
-                    color: Colors.indigo,
+                    color: Colors.green,
                   ),
                   SizedBox(width: 10),
                   Text(
