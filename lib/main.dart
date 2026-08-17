@@ -63,13 +63,11 @@ class TelaCracha extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
 
-              const CircleAvatar(
+              CircleAvatar(
                 radius: 40,
                 backgroundColor: Colors.green,
-                child: Icon(
-                  Icons.person,
-                  size: 50,
-                  color: Colors.white,
+                foregroundImage: NetworkImage(
+                  'https://i.pravatar.cc/150?img=12',
                 ),
               ),
 
