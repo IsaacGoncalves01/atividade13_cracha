@@ -131,6 +131,24 @@ class TelaCracha extends StatelessWidget {
                   ),
                 ],
               ),
+
+              const SizedBox(height: 8),
+
+              Row(
+                children: const [
+                  Icon(
+                    Icons.check_circle,
+                    color: Colors.green,
+                  ),
+                  SizedBox(width: 10),
+                  Text(
+                    'Status: Matriculado / Ativo',
+                    style: TextStyle(
+                      fontSize: 14,
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
