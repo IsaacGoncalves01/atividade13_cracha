@@ -59,7 +59,7 @@ class TelaCracha extends StatelessWidget {
             ],
           ),
 
-          child: Column(
+          children: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
 
